@@ -1,0 +1,11 @@
+
+aws:
+  region: eu-west-1 #us-west-2
+  #key:
+  #secret:
+  #inbound-queue: DemoDev
+  outbound-queue: xxxxxxxxx
+
+# aws server runs on port 5000
+server:
+  port: 5000

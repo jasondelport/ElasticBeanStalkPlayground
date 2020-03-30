@@ -1,0 +1,8 @@
+version: 1
+cron:
+ — name: "sqstest"
+   url: "/sqstest"
+   schedule: "0 0 1 * *"
+ — name: "crontest"
+   url: "/crontest"
+   schedule: "0 * * * *"

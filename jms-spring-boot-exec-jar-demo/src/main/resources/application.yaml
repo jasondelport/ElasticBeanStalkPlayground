@@ -1,0 +1,16 @@
+aws:
+  region: us-west-2
+  key: xxxxxxxxxxxx
+  secret: xxxxxxxxxxxx
+  table: Demo
+  inboundQueue: NobelPrizesInbound
+  queue: DemoDev
+message: Hello local world
+server:
+    port: 5000
+management:
+  security:
+    enabled: false
+  endpoint:
+    health:
+      show-details: always

@@ -1,0 +1,10 @@
+aws:
+  region: us-west-2
+  key: xxxxxxxxxxxx
+  secret: xxxxxxxxxxxx
+  table: Demo
+  inboundQueue: NobelPrizesInbound
+  queue: NobelPrizes
+message: Hello world
+server:
+    port: 5000
